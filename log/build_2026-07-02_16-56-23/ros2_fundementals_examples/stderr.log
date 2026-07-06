@@ -1,0 +1,40 @@
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:9:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalCppPublisher[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 |   [01;31m[KMinimalCppPublisher[m[K() : Node("minimal_publisher"), count_(0) // Initialize the node with the name "minimal_publisher"
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:36:45:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   36 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K; // Publisher
+      |                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   37 |     [01;31m[Kpublisher_[m[K; // Publisher for std_msgs::msg::String messages
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In member function ‘[01m[Kint MinimalPublisher::[01;32m[KMinimalCppPublisher[m[K()[m[K’:
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:9:27:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+    9 |   MinimalCppPublisher() : [01;31m[KNode[m[K("minimal_publisher"), count_(0) // Initialize the node with the name "minimal_publisher"
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   12 |     [01;31m[Kpublisher_[m[K = create_publisher<std_msgs::msg::String>("/cpp_example_topic", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   15 |     [01;31m[Ktimer_[m[K = create_wall_timer(500ms, std::bind(&MinimalPublisher::timer_callback, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:18:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   18 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   32 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:45:20:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kpublisher_node[m[K’
+   45 |   auto minimal_cpp [01;31m[Kpublisher_node[m[K = std::make_shared<MinimalPublisher>(); // Create an instance of the MinimalPublisher node
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:48:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kminimal_cpp[m[K’ was not declared in this scope
+   48 |   rclcpp::spin([01;31m[Kminimal_cpp[m[K publisher_node);
+      |                [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_minimal_publisher.dir/build.make:76: CMakeFiles/cpp_minimal_publisher.dir/src/cpp_minimal_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_minimal_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

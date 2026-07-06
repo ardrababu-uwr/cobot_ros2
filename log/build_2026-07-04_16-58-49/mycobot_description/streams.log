@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/ardra/ros2_tut/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/mycobot_description
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.114s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.544s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.638s] -- Added test 'lint_cmake' to check CMake code style
+[0.639s] -- Added test 'xmllint' to check XML markup files
+[0.641s] -- Configuring done (0.6s)
+[0.642s] -- Generating done (0.0s)
+[0.643s] -- Build files have been written to: /home/ardra/ros2_tut/build/mycobot_description
+[0.647s] Invoked command in '/home/ardra/ros2_tut/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/mycobot_description
+[0.647s] Invoking command in '/home/ardra/ros2_tut/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/mycobot_description -- -j16 -l16
+[0.675s] Invoked command in '/home/ardra/ros2_tut/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/mycobot_description -- -j16 -l16
+[0.676s] Invoking command in '/home/ardra/ros2_tut/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/mycobot_description
+[0.681s] -- Install configuration: ""
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/environment/path.sh
+[0.681s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/local_setup.bash
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/local_setup.sh
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/package.dsv
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[0.682s] -- Installing: /home/ardra/ros2_tut/install/mycobot_description/share/mycobot_description/package.xml
+[0.683s] Invoked command in '/home/ardra/ros2_tut/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/mycobot_description

@@ -1,0 +1,67 @@
+[0.008s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/ros2_fundementals_examples -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/ros2_fundementals_examples
+[0.017s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.172s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.190s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.255s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.256s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.348s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.348s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.359s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.425s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.425s] -- Configured cppcheck include dirs: /home/ardra/ros2_tut/src/ros2_fundementals_examples/include
+[0.425s] -- Configured cppcheck exclude dirs and/or files: 
+[0.425s] -- Added test 'lint_cmake' to check CMake code style
+[0.426s] -- Added test 'uncrustify' to check C / C++ code style
+[0.426s] -- Configured uncrustify additional arguments: 
+[0.426s] -- Added test 'xmllint' to check XML markup files
+[0.427s] -- Configuring done (0.4s)
+[0.433s] -- Generating done (0.0s)
+[0.436s] -- Build files have been written to: /home/ardra/ros2_tut/build/ros2_fundementals_examples
+[0.441s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/ros2_tut/src/ros2_fundementals_examples -DCMAKE_INSTALL_PREFIX=/home/ardra/ros2_tut/install/ros2_fundementals_examples
+[0.442s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16
+[0.489s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_minimal_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+[1.984s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:9:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalCppPublisher[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.984s]     9 |   [01;31m[KMinimalCppPublisher[m[K() : Node("minimal_publisher"), count_(0) // Initialize the node with the name "minimal_publisher"
+[1.984s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:36:45:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+[1.986s]    36 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K; // Publisher
+[1.986s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.988s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.988s]    37 |     [01;31m[Kpublisher_[m[K; // Publisher for std_msgs::msg::String messages
+[1.988s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.988s]       |     [32m[Krmw_publisher_t[m[K
+[1.988s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In member function ‘[01m[Kint MinimalPublisher::[01;32m[KMinimalCppPublisher[m[K()[m[K’:
+[1.988s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:9:27:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[1.988s]     9 |   MinimalCppPublisher() : [01;31m[KNode[m[K("minimal_publisher"), count_(0) // Initialize the node with the name "minimal_publisher"
+[1.988s]       |                           [01;31m[K^~~~[m[K
+[1.993s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.993s]    12 |     [01;31m[Kpublisher_[m[K = create_publisher<std_msgs::msg::String>("/cpp_example_topic", 10);
+[1.993s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.993s]       |     [32m[Krmw_publisher_t[m[K
+[1.998s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.998s]    15 |     [01;31m[Ktimer_[m[K = create_wall_timer(500ms, std::bind(&MinimalPublisher::timer_callback, this));
+[1.998s]       |     [01;31m[K^~~~~~[m[K
+[1.998s]       |     [32m[Ktimer_t[m[K
+[2.003s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:18:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.003s]    18 |   [01;35m[K}[m[K
+[2.003s]       |   [01;35m[K^[m[K
+[2.008s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[2.008s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.008s]    32 |     [01;31m[Kpublisher_[m[K->publish(message);
+[2.009s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.009s]       |     [32m[Krmw_publisher_t[m[K
+[2.009s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.009s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:45:20:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kpublisher_node[m[K’
+[2.009s]    45 |   auto minimal_cpp [01;31m[Kpublisher_node[m[K = std::make_shared<MinimalPublisher>(); // Create an instance of the MinimalPublisher node
+[2.009s]       |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.012s] [01m[K/home/ardra/ros2_tut/src/ros2_fundementals_examples/src/cpp_minimal_publisher.cpp:48:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kminimal_cpp[m[K’ was not declared in this scope
+[2.012s]    48 |   rclcpp::spin([01;31m[Kminimal_cpp[m[K publisher_node);
+[2.012s]       |                [01;31m[K^~~~~~~~~~~[m[K
+[2.608s] gmake[2]: *** [CMakeFiles/cpp_minimal_publisher.dir/build.make:76: CMakeFiles/cpp_minimal_publisher.dir/src/cpp_minimal_publisher.cpp.o] Error 1
+[2.609s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_minimal_publisher.dir/all] Error 2
+[2.609s] gmake: *** [Makefile:146: all] Error 2
+[2.611s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16

@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16
+[0.044s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.275s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.365s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.366s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.504s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.504s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.524s] -- Found ament_cmake_pytest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[0.528s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.529s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:70 (message):
+[0.529s]   ament_add_pytest_test() the path
+[0.529s]   '/home/ardra/ros2_tut/src/ros2_fundementals_examples/test/test_py_minimal_publisher.py'
+[0.529s]   does not exist
+[0.529s] Call Stack (most recent call first):
+[0.529s]   CMakeLists.txt:89 (ament_add_pytest_test)
+[0.529s] 
+[0.529s] [0m
+[0.529s] -- Configuring incomplete, errors occurred!
+[0.536s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.536s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16

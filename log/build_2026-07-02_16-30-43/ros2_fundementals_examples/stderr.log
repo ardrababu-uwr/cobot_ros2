@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'ros2_fundementals_examples' in
+  '/package.xml' does not match current PROJECT_NAME
+  'ros2_fundamentals_examples'.  You must call project() with the same
+  package name before.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:64 (ament_python_install_package)
+
+[0m

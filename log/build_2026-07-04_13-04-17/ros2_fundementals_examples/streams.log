@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.189s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.214s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.279s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.374s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.375s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.385s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.390s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.496s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.497s] -- Found Threads: TRUE  
+[0.571s] -- Configuring done (0.5s)
+[0.587s] -- Generating done (0.0s)
+[0.592s] -- Build files have been written to: /home/ardra/ros2_tut/build/ros2_fundementals_examples
+[0.620s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.620s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.625s] [ 40%] Built target cpp_minimal_subscriber
+[0.626s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_minimal_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+[1.252s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.297s] [ 60%] Built target gtest_main
+[3.321s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.381s] [ 70%] Built target gtest
+[3.395s] [ 80%] [32mBuilding CXX object CMakeFiles/cpp_minimal_publisher_test.dir/test/gtest/test_publisher.cpp.o[0m
+[3.595s] [ 90%] [32m[1mLinking CXX executable cpp_minimal_publisher[0m
+[3.740s] [ 90%] Built target cpp_minimal_publisher
+[8.780s] [100%] [32m[1mLinking CXX executable cpp_minimal_publisher_test[0m
+[8.999s] [100%] Built target cpp_minimal_publisher_test
+[9.007s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/ros2_tut/build/ros2_fundementals_examples -- -j16 -l16
+[9.008s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/ros2_fundementals_examples
+[9.013s] -- Install configuration: ""
+[9.013s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/include
+[9.013s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/include/ros2_fundementals_examples
+[9.014s] -- Installing: /home/ardra/ros2_tut/install/ros2_fundementals_examples/lib/ros2_fundementals_examples/cpp_minimal_publisher
+[9.015s] -- Set non-toolchain portion of runtime path of "/home/ardra/ros2_tut/install/ros2_fundementals_examples/lib/ros2_fundementals_examples/cpp_minimal_publisher" to ""
+[9.015s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/lib/ros2_fundementals_examples/cpp_minimal_subscriber
+[9.015s] -- Installing: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundementals_examples
+[9.015s] -- Installing: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundementals_examples
+[9.015s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/environment/ament_prefix_path.sh
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/environment/ament_prefix_path.dsv
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/environment/path.sh
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/environment/path.dsv
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/local_setup.bash
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/local_setup.sh
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/local_setup.zsh
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/local_setup.dsv
+[9.016s] -- Installing: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/package.dsv
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ament_index/resource_index/packages/ros2_fundementals_examples
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/cmake/ros2_fundementals_examplesConfig.cmake
+[9.016s] -- Up-to-date: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/cmake/ros2_fundementals_examplesConfig-version.cmake
+[9.016s] -- Installing: /home/ardra/ros2_tut/install/ros2_fundementals_examples/share/ros2_fundementals_examples/package.xml
+[9.017s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ardra/magician_ros2_ws/install/dobot_visualization_tools:/home/ardra/magician_ros2_ws/install/dobot_state_updater:/home/ardra/magician_ros2_ws/install/dobot_motion:/home/ardra/magician_ros2_ws/install/dobot_kinematics:/home/ardra/magician_ros2_ws/install/dobot_homing:/home/ardra/magician_ros2_ws/install/dobot_end_effector:/home/ardra/magician_ros2_ws/install/dobot_diagnostics:/home/ardra/magician_ros2_ws/install/dobot_demos:/home/ardra/magician_ros2_ws/install/dobot_control_panel:/home/ardra/magician_ros2_ws/install/dobot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/ros2_tut/build/ros2_fundementals_examples

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.021" timestamp="2026-07-04T13:16:15.650" name="AllTests">
+  <testsuite name="TestMinimalPublisher" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.02" timestamp="2026-07-04T13:16:15.650">
+    <testcase name="TestNodeCreation" file="/home/ardra/ros2_tut/src/ros2_fundementals_examples/test/gtest/test_publisher.cpp" line="52" status="run" result="completed" time="0.015" timestamp="2026-07-04T13:16:15.650" classname="ros2_fundementals_examples.TestMinimalPublisher" />
+    <testcase name="TestMessageContent" file="/home/ardra/ros2_tut/src/ros2_fundementals_examples/test/gtest/test_publisher.cpp" line="63" status="run" result="completed" time="0.005" timestamp="2026-07-04T13:16:15.666" classname="ros2_fundementals_examples.TestMinimalPublisher" />
+  </testsuite>
+</testsuites>

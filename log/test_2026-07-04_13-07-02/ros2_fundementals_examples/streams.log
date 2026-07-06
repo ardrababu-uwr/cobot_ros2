@@ -1,0 +1,94 @@
+[0.017s] Invoking command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process --output-on-failure
+[0.024s] UpdateCTestConfiguration  from :/home/ardra/ros2_tut/build/ros2_fundementals_examples/CTestConfiguration.ini
+[0.025s] Parse Config file:/home/ardra/ros2_tut/build/ros2_fundementals_examples/CTestConfiguration.ini
+[0.025s]    Site: ardra-ASUS-TUF-Gaming-F15-FX506HE-FX506HE
+[0.025s]    Build name: (empty)
+[0.025s]  Add coverage exclude regular expressions.
+[0.025s] Create new tag: 20260704-0737 - Experimental
+[0.025s] UpdateCTestConfiguration  from :/home/ardra/ros2_tut/build/ros2_fundementals_examples/CTestConfiguration.ini
+[0.025s] Parse Config file:/home/ardra/ros2_tut/build/ros2_fundementals_examples/CTestConfiguration.ini
+[0.025s] Test project /home/ardra/ros2_tut/build/ros2_fundementals_examples
+[0.025s] Constructing a list of tests
+[0.025s] Done constructing a list of tests
+[0.025s] Updating test list for fixtures
+[0.025s] Added 0 tests to meet fixture requirements
+[0.025s] Checking test dependency graph...
+[0.025s] Checking test dependency graph end
+[0.025s] test 1
+[0.025s]     Start 1: cpp_minimal_publisher_test
+[0.025s] 
+[0.025s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml" "--package-name" "ros2_fundementals_examples" "--output-file" "/home/ardra/ros2_tut/build/ros2_fundementals_examples/ament_cmake_gtest/cpp_minimal_publisher_test.txt" "--command" "/home/ardra/ros2_tut/build/ros2_fundementals_examples/cpp_minimal_publisher_test" "--gtest_output=xml:/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml"
+[0.025s] 1: Working Directory: /home/ardra/ros2_tut/build/ros2_fundementals_examples
+[0.025s] 1: Test timeout computed to be: 60
+[0.067s] 1: -- run_test.py: invoking following command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples':
+[0.067s] 1:  - /home/ardra/ros2_tut/build/ros2_fundementals_examples/cpp_minimal_publisher_test --gtest_output=xml:/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml
+[0.073s] 1: [==========] Running 2 tests from 1 test suite.
+[0.073s] 1: [----------] Global test environment set-up.
+[0.074s] 1: [----------] 2 tests from TestMinimalPublisher
+[0.074s] 1: [ RUN      ] TestMinimalPublisher.TestNodeCreation
+[0.087s] 1: [INFO] [1783150622.205529027] [minimal_publisher]: Publishing at 2Hz
+[0.089s] 1: [       OK ] TestMinimalPublisher.TestNodeCreation (15 ms)
+[0.089s] 1: [ RUN      ] TestMinimalPublisher.TestMessageContent
+[0.093s] 1: [INFO] [1783150622.211540563] [minimal_publisher]: Publishing at 2Hz
+[0.093s] 1: /home/ardra/ros2_tut/src/ros2_fundementals_examples/test/gtest/test_publisher.cpp:81: Failure
+[0.093s] 1: Expected equality of these values:
+[0.093s] 1:   received_message->data.substr(0, 13)
+[0.093s] 1:     Which is: "Hello, world!"
+[0.094s] 1:   "Hello, world! "
+[0.094s] 1: 
+[0.095s] 1: [  FAILED  ] TestMinimalPublisher.TestMessageContent (5 ms)
+[0.095s] 1: [----------] 2 tests from TestMinimalPublisher (21 ms total)
+[0.095s] 1: 
+[0.095s] 1: [----------] Global test environment tear-down
+[0.095s] 1: [==========] 2 tests from 1 test suite ran. (21 ms total)
+[0.095s] 1: [  PASSED  ] 1 test.
+[0.095s] 1: [  FAILED  ] 1 test, listed below:
+[0.095s] 1: [  FAILED  ] TestMinimalPublisher.TestMessageContent
+[0.095s] 1: 
+[0.095s] 1:  1 FAILED TEST
+[0.198s] 1: -- run_test.py: return code 1
+[0.198s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml'
+[0.198s] 1: -- run_test.py: verify result file '/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml'
+[0.206s] 1/1 Test #1: cpp_minimal_publisher_test .......***Failed    0.18 sec
+[0.206s] -- run_test.py: invoking following command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples':
+[0.206s]  - /home/ardra/ros2_tut/build/ros2_fundementals_examples/cpp_minimal_publisher_test --gtest_output=xml:/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml
+[0.206s] [==========] Running 2 tests from 1 test suite.
+[0.206s] [----------] Global test environment set-up.
+[0.207s] [----------] 2 tests from TestMinimalPublisher
+[0.207s] [ RUN      ] TestMinimalPublisher.TestNodeCreation
+[0.207s] [INFO] [1783150622.205529027] [minimal_publisher]: Publishing at 2Hz
+[0.207s] [       OK ] TestMinimalPublisher.TestNodeCreation (15 ms)
+[0.207s] [ RUN      ] TestMinimalPublisher.TestMessageContent
+[0.207s] [INFO] [1783150622.211540563] [minimal_publisher]: Publishing at 2Hz
+[0.207s] /home/ardra/ros2_tut/src/ros2_fundementals_examples/test/gtest/test_publisher.cpp:81: Failure
+[0.207s] Expected equality of these values:
+[0.207s]   received_message->data.substr(0, 13)
+[0.207s]     Which is: "Hello, world!"
+[0.207s]   "Hello, world! "
+[0.207s] 
+[0.208s] [  FAILED  ] TestMinimalPublisher.TestMessageContent (5 ms)
+[0.208s] [----------] 2 tests from TestMinimalPublisher (21 ms total)
+[0.208s] 
+[0.208s] [----------] Global test environment tear-down
+[0.208s] [==========] 2 tests from 1 test suite ran. (21 ms total)
+[0.208s] [  PASSED  ] 1 test.
+[0.208s] [  FAILED  ] 1 test, listed below:
+[0.208s] [  FAILED  ] TestMinimalPublisher.TestMessageContent
+[0.208s] 
+[0.208s]  1 FAILED TEST
+[0.208s] -- run_test.py: return code 1
+[0.208s] -- run_test.py: inject classname prefix into gtest result file '/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml'
+[0.209s] -- run_test.py: verify result file '/home/ardra/ros2_tut/build/ros2_fundementals_examples/test_results/ros2_fundementals_examples/cpp_minimal_publisher_test.gtest.xml'
+[0.209s] 
+[0.209s] 
+[0.209s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[0.209s] 
+[0.209s] Label Time Summary:
+[0.209s] gtest    =   0.18 sec*proc (1 test)
+[0.209s] 
+[0.209s] Total Test time (real) =   0.18 sec
+[0.209s] 
+[0.209s] The following tests FAILED:
+[0.209s] 	[0;31m  1 - cpp_minimal_publisher_test (Failed)[0;0m
+[0.210s] Errors while running CTest
+[0.211s] Invoked command in '/home/ardra/ros2_tut/build/ros2_fundementals_examples' returned '8': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process --output-on-failure
