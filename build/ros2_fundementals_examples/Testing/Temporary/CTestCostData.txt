@@ -1,2 +1,0 @@
-cpp_minimal_publisher_test 1 0.180512
----

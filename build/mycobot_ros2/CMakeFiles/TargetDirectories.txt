@@ -1,9 +1,0 @@
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/uninstall.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/mycobot_ros2_uninstall.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/test.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/edit_cache.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/rebuild_cache.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/list_install_components.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/install.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/install/local.dir
-/home/ardra/ros2_tut/build/mycobot_ros2/CMakeFiles/install/strip.dir

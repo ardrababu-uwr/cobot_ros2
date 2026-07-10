@@ -1,9 +1,0 @@
-[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:70 (message):
-  ament_add_pytest_test() the path
-  '/home/ardra/ros2_tut/src/ros2_fundementals_examples/test/test_py_minimal_publisher.py'
-  does not exist
-Call Stack (most recent call first):
-  CMakeLists.txt:89 (ament_add_pytest_test)
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1
